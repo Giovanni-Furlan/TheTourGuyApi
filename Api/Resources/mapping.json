@@ -1,0 +1,33 @@
+{
+  "Config": [
+    {
+      "Supplier": "TheTourGuy",
+      "ListPath": "data",
+      "Name": "title",
+      "Description": "description",
+      "Destination": "title",
+      "Price": "discountPrice",
+      "MaxGuests": "maximumGuests"
+    },
+    {
+      "Supplier": "SomeOtherGuy",
+      "ListPath": "Products",
+      "Name": "name",
+      "Description": "productDescription",
+      "Destination": "name",
+      "Price": "price",
+      "DiscountPercentage": "discountPercentage",
+      "MaxGuests": "capacity"
+    },
+    {
+      "Supplier": "TheBigGuy",
+      "ListPath": "ProductData",
+      "Name": "productDetailData.name",
+      "Destination": "productDetailData.name",
+      "Description": "productDetailData.productDescription",
+      "Price": "price.amount",
+      "Discount": "price.appliedDiscount",
+      "MaxGuests": "productDetailData.capacity"
+    }
+  ]
+}
